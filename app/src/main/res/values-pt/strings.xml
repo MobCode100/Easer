@@ -89,13 +89,12 @@
 \n
 \nVOCÊ é dono(a) de todos os seus dados. Tudo fica no seu aparelho, inclusive os logs.
 \nConsulte a <a href="https://github.com/renyuneyun/Easer/blob/master/Privacy.md">Declaração de privacidade</a> para mais informações</string>
-    <string name="welcome_message_3">Scripts são estruturados como <a href="https://pt.wikipedia.org/wiki/Topologia_em_%C3%A1rvore">árvores</a>, a escolher o pai relevante.
+    <string name="welcome_message_3">Scripts são estruturados como <a href="https://en.wikipedia.org/wiki/Graph_(abstract_data_type)">graphs</a>, a escolher os seus sucessores anteriores (parentes).
 \n
-\nEm todos os ramos, a lógica E é executada.
-\nEntre ramos, a lógica OU é executada.
-\n
-\n
-\nA extensão de árvores para gráficos está planeada, mas atualmente não está implementada.</string>
+\nGrosseiramente dito:
+\n- Dos predecessores aos sucessores, onde a lógica AND é executada.
+\n- Entre os nós, onde a lógica OR é executada.
+\n- Múltiplos antecessores têm a relação AND, com relação ao sucessor.</string>
     <string name="welcome_message_2">Easer contém vários módulos que trazem diferentes funções. Ative-os ou desative-os em Configurações.
 \n
 \nAs permissões correspondentes (para cada módulo ativo) deveriam ser concedidas antes do uso.

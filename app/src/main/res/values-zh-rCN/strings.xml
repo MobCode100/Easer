@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="easer">Easer</string>
+    <string name="drawer_tip">化简·生活</string>
+    <string name="title_outline">轮廓</string>
+    <string name="title_pivot">核心</string>
+    <string name="title_data_collection">数据</string>
+    <string name="title_operation">操作</string>
+    <string name="title_profile">偏好设置</string>
+    <string name="title_event">事件</string>
+    <string name="title_script">脚本</string>
+    <string name="title_condition">条件</string>
+    <string name="title_application">应用程序</string>
+    <string name="title_activity_history">操作历史记录</string>
+</resources>

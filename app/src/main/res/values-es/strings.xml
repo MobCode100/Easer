@@ -111,7 +111,7 @@
     <string name="pref_autostart_summary">Activa Easer en segundo plano cuando el dispositivo se enciende.</string>
     <string name="pref_restart_after_upgrade_title">Activar servicio después de actualizar</string>
     <string name="pref_welcome_title">Mostrar mensaje de bienvenida</string>
-    <string name="pref_welcome_summary">Muestra un mensaje inicial cuando se abre una app</string>
+    <string name="pref_welcome_summary">Muestra un mensaje inicial cuando se abre una aplicación</string>
     <string name="pref_logging_title">Encender registro externo</string>
     <string name="pref_logging_summary">Registros en dispositivos con almacenamiento externo (/sdcard/logger) para ayudar en los informes de errores.
 \nLos cambios tienen efecto al siguiente inicio de la aplicación.</string>
@@ -136,7 +136,7 @@
     <string name="pref_foreground_title">Ejecutar el servicio en segundo plano</string>
     <string name="pref_foreground_summary">Hace más difícil para el sistema matar el servicio. Se mostrará una notificación. No se puede apagar en Android 8+ debido a un requisito del sistema.</string>
     <string name="pref_locale_custom">Territorialidad personalizada</string>
-    <string name="message_skill_not_compatible">Este dispositivo no puede ejecutar esa habilidad.</string>
+    <string name="message_skill_not_compatible">Este dispositivo no puede ejecutar esa función.</string>
     <string name="message_convert_data_start">Convirtiendo datos.</string>
     <string name="message_convert_data_finish">Datos convertidos.</string>
     <string name="message_convert_data_abort">Conversión de datos cancelada.</string>

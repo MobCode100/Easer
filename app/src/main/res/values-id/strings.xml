@@ -148,4 +148,15 @@
     <string name="template_export">Diekspor ke %s</string>
     <string name="title_add_child">Tambah anak</string>
     <string name="category_operation_easer">\@string/easer</string>
+    <string name="pref_autostart_title">Mulai otomatis</string>
+    <string name="text_predefined_event">Acara yang Telah Ditentukan</string>
+    <string name="text_inline_event">Acara Sebaris</string>
+    <string name="text_placeholder">Penampung</string>
+    <string name="prompt_data_save_io_exception">IOException ditemui. Mungkin penyimpanan sudah penuh?</string>
+    <string name="prompt_error_logged">Easer baru saja mencatat error. Lihat subdirektori kesalahan pada direktori log.</string>
+    <string name="pref_category_personalise">Personalisasikan</string>
+    <string name="pref_locale_custom">Lokal kustom</string>
+    <string name="title_welcome_message_privacy">Privasi!</string>
+    <string name="alert_update_storage_data_title">Versi data lama ditemukan</string>
+    <string name="alert_update_storage_data">Pilih \"Konversi Data\" dalam pengaturan untuk memperbarui data Anda ke format baru, untuk kompatibilitas.</string>
 </resources>

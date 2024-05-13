@@ -32,7 +32,7 @@
     <string name="help_script">\"Сценарій\" (англ. Script) - це логічний контейнер. За допомогою сценарію можна об\'єднати подію або умову з профілем. Коли ця подія відбудеться або умову буде виконано, Easer активує вибраний вами профіль.
 \nТакож реалізовані розширені функції, такі як зворотна подія.
 \nДля більш детальної інформації зверніться, будь ласка, до <a href="https://github.com/renyuneyun/Easer/wiki">документу</a>.</string>
-    <string name="title_help">Допомога</string>
+    <string name="title_help">Довідка</string>
     <string name="dynamics_profile_name">Назва профілю</string>
     <string name="dynamics_script_name">Назва скрипта</string>
     <string name="dynamics_date">Поточна дата</string>
