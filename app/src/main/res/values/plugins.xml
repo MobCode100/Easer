@@ -233,6 +233,11 @@
     <string name="usource__enabled_yes">Yes</string>
     <string name="usource__enabled_no">No</string>
 
+    <string name="usource_airplane_mode">Airplane Mode</string>
+    <string name="usource_airplane_mode__off">Off</string>
+    <string name="usource_airplane_mode__on">On</string>
+    <string name="usource_airplane_mode__state">Airplane Mode state</string>
+
     <string name="usource_battery_level">Battery Level</string>
     <string name="usource_battery_level__level_system">System level</string>
     <string name="usource_battery_level__level_custom">Custom level</string>
@@ -288,6 +293,13 @@
     <string name="usource_date">Date</string>
 
     <string name="usource_day_of_week">Day of the Week</string>
+
+    <string name="usource_do_not_disturb">Do Not Disturb</string>
+    <string name="usource_do_not_disturb__alarms">Alarms Only</string>
+    <string name="usource_do_not_disturb__none">No Interruptions</string>
+    <string name="usource_do_not_disturb__priority">Priority</string>
+    <string name="usource_do_not_disturb__normal">Normal</string>
+    <string name="usource_do_not_disturb__unknown">Unknown</string>
 
     <string name="usource_headset">Headset</string>
     <string name="usource_headset__headset_state">Headset state</string>

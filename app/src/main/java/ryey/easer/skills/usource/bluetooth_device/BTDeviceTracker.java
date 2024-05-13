@@ -20,6 +20,7 @@
 package ryey.easer.skills.usource.bluetooth_device;
 
 import android.app.PendingIntent;
+import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothManager;
 import android.bluetooth.BluetoothProfile;
@@ -52,6 +53,11 @@ public class BTDeviceTracker extends SkeletonTracker<BTDeviceUSourceData> {
                     matched_devices--;
                     determine_satisfied();
                 }
+            } else if (action.equals(BluetoothAdapter.ACTION_STATE_CHANGED)) {
+                if (intent.getIntExtra(BluetoothAdapter.EXTRA_STATE, 0) == BluetoothAdapter.STATE_OFF) {
+                    matched_devices = 0;
+                    determine_satisfied();
+                }
             }
         }
     };
@@ -62,6 +68,7 @@ public class BTDeviceTracker extends SkeletonTracker<BTDeviceUSourceData> {
         filter = new IntentFilter();
         filter.addAction(BluetoothDevice.ACTION_ACL_CONNECTED);
         filter.addAction(BluetoothDevice.ACTION_ACL_DISCONNECTED);
+        filter.addAction(BluetoothAdapter.ACTION_STATE_CHANGED);
     }
 
     BTDeviceTracker(Context context, BTDeviceUSourceData data,
@@ -96,6 +103,7 @@ public class BTDeviceTracker extends SkeletonTracker<BTDeviceUSourceData> {
     }
 
     private void determine_satisfied() {
+        if (matched_devices < 0) matched_devices = 0;
         newSatisfiedState(matched_devices > 0);
     }
 }
